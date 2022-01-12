@@ -21,7 +21,12 @@ class Main {
     catch(Exception e) {
       e.getStackTrace();
     }
+//new code added for hdfc-300 userstory --Mahener
+// reads all data from input.txt
+      sourceFile.read(array);
 
-
+      // writes all data to newFile
+      destFile.write(array);
+      System.out.println("The input.txt file is copied to newFile.");
   }
 }
