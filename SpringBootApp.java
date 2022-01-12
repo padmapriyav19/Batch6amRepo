@@ -28,5 +28,8 @@ class Main {
       // writes all data to newFile
       destFile.write(array);
       System.out.println("The input.txt file is copied to newFile.");
+	  public static void main (String[] args){
+    DemoClass.sampleMethod(4,2);     
+ }
   }
 }
